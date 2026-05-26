@@ -1,0 +1,24 @@
+# Core
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+scikit-learn>=1.3
+lark>=1.1
+
+# Structural biology
+biopython>=1.81
+biotite>=0.41
+freesasa>=2.2
+pydssp>=0.9
+
+# LLM inference (one of vllm or transformers, depending on backend)
+torch>=2.1
+transformers>=4.40
+vllm>=0.6  # required for batched baselines; remove if running CPU-only
+
+# Optional: grammar-constrained decoding backends
+# llguidance>=0.2
+# xgrammar>=0.1
+
+# Testing
+pytest>=7.4

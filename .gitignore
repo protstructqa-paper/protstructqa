@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# Local data and runs (regenerate via scripts)
+data/
+models/
+external_data/
+baseline_runs/
+benchmark/baseline_runs*/
+benchmark/protein_cache/
+*.npz
+*.pkl
+
+# Environment
+.env
+.venv/
+venv/
+*.lock
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+logs/
+nohup.out
+
+# Outputs
+*.aux
+*.bbl
+*.blg
